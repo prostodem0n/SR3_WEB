@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    background: radial-gradient( rgb(100, 100, 255), blue);
+}
+
+.Search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Search_field{
+    border-radius: 20px; /* Округляем углы поля ввода */
+    padding: 10px; /* Добавляем отступы вокруг текста внутри поля ввода */
+    width: 500px; /* Задаем ширину поля ввода */
+    margin-bottom: 40px;
+}
+
+.Button{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    background: rgb(0, 22, 82);
+}
+
+.Other_searches {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px; /* Отступ от нижнего края */
+    margin-right: 20px; /* Отступ от правого края */
+    display: flex; /* Используем flexbox */
+    flex-direction: row; /* Располагаем элементы в строку */
+}
+
+.Other_searches a {
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 50px; /* Отступ между ссылками */
+}
